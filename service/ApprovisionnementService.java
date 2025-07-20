@@ -22,8 +22,10 @@ public class ApprovisionnementService {
     }
 
     public List<Approvisionnement> filtrerApprovisionnements(LocalDate debut, LocalDate fin) {
-        return approvisionnements.stream()
+        return approvisionnements.stream() 
             .filter(a -> !a.getDate().isBefore(debut) && !a.getDate().isAfter(fin))
             .collect(Collectors.toList());
     }
 }
+
+

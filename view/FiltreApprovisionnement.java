@@ -1,5 +1,4 @@
 package view;
-
 import entity.Approvisionnement;
 import service.ApprovisionnementService;
 import java.time.LocalDate;
@@ -10,7 +9,8 @@ public class FiltreApprovisionnement {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ApprovisionnementService approService = new ApprovisionnementService();
-        // Ici, on suppose que des approvisionnements existent déjà dans le service
+       
+
         System.out.print("Date début (AAAA-MM-JJ) : ");
         String debutStr = scanner.nextLine();
         System.out.print("Date fin (AAAA-MM-JJ) : ");

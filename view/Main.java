@@ -1,5 +1,4 @@
 package view;
-
 import entity.*;
 import service.*;
 import java.time.LocalDate;
@@ -20,7 +19,7 @@ public class Main {
             System.out.println("0. Quitter");
             System.out.print("Votre choix : ");
             int choix = scanner.nextInt();
-            scanner.nextLine(); 
+            scanner.nextLine();
 
             switch (choix) {
                 case 1:
@@ -91,7 +90,7 @@ public class Main {
                     }
                     break;
                 case 0:
-                    System.out.println("Au revoir !");
+                    System.out.println( "!");
                     return;
                 default:
                     System.out.println("Choix invalide.");

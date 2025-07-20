@@ -9,7 +9,7 @@ public class FournisseurService {
 
     public FournisseurService() {
         fournisseurs = new ArrayList<>();
-        fournisseurs.add(new Fournisseur(1, "Papeterie Paris"));
+        fournisseurs.add(new Fournisseur(1, "Papeterie Sn"));
         fournisseurs.add(new Fournisseur(2, "BureauPro"));
         fournisseurs.add(new Fournisseur(3, "OfficePlus"));
     }
